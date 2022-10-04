@@ -1,0 +1,287 @@
+body{
+	background-color:#EEE;
+	background-image:url(fundo\ 2.jpg);
+	background-repeat:repeat-x; 
+	margin:0 0 20px 0;
+	font-family:"trebuchet ms",verdana;
+	color:#333333;
+	line-height: 1.5;
+
+}
+
+img{
+	border:none;
+}
+
+#topo{
+	width:900px;
+	height:100px;
+	margin:auto;
+
+}
+
+#logo{
+	width: 900px;
+	height:63px;
+	float:left;
+	margin-top:15px;
+	padding-top: 30px;
+	padding-bottom: 15px;
+
+}
+
+#logo img{
+	padding-left: 280px;
+	
+}
+
+#menu{
+	text-align: center;
+	margin-top:86px;
+	align-items: center;
+	background-color: #e278b6;
+	
+}
+
+#menu a{
+	color:#FFFFFF;
+	font-weight:bold;
+	font-family:verdana;
+	text-decoration:none;
+	display:inline-block;
+	padding:10px 30px 10px 20px;
+	
+
+}
+
+#menu a:hover{
+	color:#d661bd;
+	background-color:#FFFFFF;
+}
+
+#container{
+	width:880px;
+	height:auto;
+	display: table;
+	margin:auto;
+	background-color:#FFFFFF;
+	padding:10px;
+	padding-bottom: 50px;
+	position: relative;
+	
+}
+
+
+#banner{
+	width: 880px;
+	height:280px;
+	/*background-color:#666666;*/
+	float:left;
+	padding-bottom: 60px;
+	
+}
+
+#conteudo{
+	width:880px;
+	min-height:50px;
+	/*background-color:#CCCCCC;*/
+	float:left;
+	margin:30px 0 30px 0; /*TOP RIGHT BOTTOM LEFT*/
+
+}
+
+.cabecalho{
+	font-size: 40px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	padding-left: 10px;
+}
+
+.cbc{
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	padding-left: 10px;
+}
+
+.marquee{
+	font-size: 18px;
+	color: rgb(150, 15, 132);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	align-items: center;
+	font-weight: bold;
+	
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding-left: 10px;
+}
+
+h3{
+	font-family:verdana;
+	font-size:18px;
+}
+
+h4{
+	font-size:14px;
+	margin-top:10px;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+ol li{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#box1,#box2,#box3{
+	width:260px;
+	min-height:300px;
+	float:left;
+	/*background-color:#666666;*/
+}
+
+#box2{
+	margin-left:50px;
+}
+
+#box3{
+	float:right;
+}
+
+#box1 h3, #box2 h3, #box3 h3{
+	margin-top:10px;
+}
+	
+#box1 p, #box2 p{
+	color:#666666;
+	font-size:12px;
+}
+
+.saibamais{
+	color:#9c1a91;
+	font-size:12px;
+	text-decoration:none;
+}
+
+form{
+	font-size:14px;
+	font-weight:bold;
+	margin-top:10px;
+}
+
+input[type=text]{ 
+	width:260px;
+	border:solid 1px #CCCCCC;
+	margin-bottom:5px;
+}
+
+*footer{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1170px;
+	margin: auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*ul{
+	list-style: none;
+}*/
+
+.footer{
+	background-color: #a71ea0;
+	padding: 0 15px;
+	padding-bottom: 20px;
+}
+
+.footer-col{
+	width: 20%;
+	padding: 0 15px;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+	padding-top: 20px;;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #111111;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{ 
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #575454;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+	.footer-col{
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+
+@media(max-width: 574px){
+	.footer-col{
+		width: 100%;
+	}
+}
